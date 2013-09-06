@@ -2,18 +2,31 @@ FORGE
   remote: http://forge.puppetlabs.com
   specs:
     example42/puppi (2.1.0)
-    example42/timezone (2.0.8)
-      example42/puppi (>= 2.0.0)
     puppetlabs/apt (1.2.0)
       puppetlabs/stdlib (>= 2.2.1)
     puppetlabs/ntp (2.0.1)
       puppetlabs/stdlib (>= 0.1.6)
     puppetlabs/stdlib (4.1.0)
 
+GIT
+  remote: git://github.com/credativ/puppet-ssh-hiera.git
+  ref: master
+  sha: b634e3c6b6953bb2c620ee9deadf157b6db939a6
+  specs:
+    ssh (0.0.1)
+
+GIT
+  remote: https://github.com/example42/puppet-timezone.git
+  ref: master
+  sha: a7a0c3bc256f9cd22592408ec2622a4b916e04a3
+  specs:
+    example42/timezone (2.0.8)
+      example42/puppi (>= 2.0.0)
+
 DEPENDENCIES
-  example42/puppi (>= 0)
   example42/timezone (>= 0)
   puppetlabs/apt (>= 0)
   puppetlabs/ntp (>= 0)
   puppetlabs/stdlib (>= 0)
+  ssh (>= 0)
 
