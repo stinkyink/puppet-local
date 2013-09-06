@@ -1,0 +1,18 @@
+[submodule "modules/stdlib"]
+	path = modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "modules/apt"]
+	path = modules/apt
+	url = https://github.com/puppetlabs/puppetlabs-apt.git
+[submodule "modules/openssh"]
+	path = modules/openssh
+	url = https://github.com/example42/puppet-openssh.git
+[submodule "modules/puppi"]
+	path = modules/puppi
+	url = https://github.com/example42/puppi.git
+[submodule "modules/ntp"]
+	path = modules/ntp
+	url = https://github.com/puppetlabs/puppetlabs-ntp.git
+[submodule "modules/timezone"]
+	path = modules/timezone
+	url = https://github.com/example42/puppet-timezone.git

@@ -1,0 +1,10 @@
+---
+:backends:
+  - yaml
+:yaml:
+  :datadir: /etc/puppet/hiera
+:hierarchy:
+  - common/roles
+  - common/data
+  - node/roles
+  - node/data
