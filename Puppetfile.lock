@@ -1,0 +1,19 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    example42/puppi (2.1.0)
+    example42/timezone (2.0.8)
+      example42/puppi (>= 2.0.0)
+    puppetlabs/apt (1.2.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/ntp (2.0.1)
+      puppetlabs/stdlib (>= 0.1.6)
+    puppetlabs/stdlib (4.1.0)
+
+DEPENDENCIES
+  example42/puppi (>= 0)
+  example42/timezone (>= 0)
+  puppetlabs/apt (>= 0)
+  puppetlabs/ntp (>= 0)
+  puppetlabs/stdlib (>= 0)
+

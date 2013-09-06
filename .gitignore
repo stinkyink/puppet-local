@@ -2,6 +2,7 @@
 hiera/node/*
 !hiera/node/.gitkeep
 
-tmp
+.tmp
+.librarian
 modules/*
 !modules/.gitkeep
