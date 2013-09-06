@@ -1,3 +1,7 @@
 .vagrant
 hiera/node/*
 !hiera/node/.gitkeep
+
+tmp
+modules/*
+!modules/.gitkeep
