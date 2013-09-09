@@ -7,5 +7,6 @@
   - common/_users # Private, contains our user setup.
   - common/roles
   - common/data
+  - node/_users
   - node/roles
   - node/data
