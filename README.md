@@ -16,7 +16,7 @@ We use Ubuntu on all our boxes, the easiest way to get Puppet setup is to use
 the puppetlabs repository. Visit http://apt.puppetlabs.com and find the right
 puppetlabs-release-\* deb for your version of Ubuntu and install it with dpkg.
 
-    $ wget http://apt.puppetlabs.com/puppetlabs-release-precise.deb && dpkg -i puppetlabs-release-precise.deb
+    $ wget http://apt.puppetlabs.com/puppetlabs-release-precise.deb && sudo dpkg -i puppetlabs-release-precise.deb
 
 Then update apt and install puppet (we don't need to install puppetmaster).
 
