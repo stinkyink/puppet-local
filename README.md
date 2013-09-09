@@ -140,7 +140,7 @@ You will need to configure the roles for your VM node, see setup above.
 
 Example commands for use with Vagrant:
 
-    $ # Do steps in Setup stage of README
+    $ # Do steps in Setup stage of README - note also install puppet
     $ vagrant up
     $ vagrant ssh
     $ cd /etc/puppet
