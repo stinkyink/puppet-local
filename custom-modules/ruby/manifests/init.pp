@@ -30,7 +30,7 @@ class ruby::common {
 class ruby::rails {
   package { ["libxml2-dev", "libxslt1-dev", "libmysqlclient-dev", "libsqlite3-dev",
              "libonig-dev", "graphicsmagick-imagemagick-compat",
-             "graphicsmagick-libmagick-dev-compat", "node" ]:
+             "graphicsmagick-libmagick-dev-compat", "nodejs" ]:
     ensure => installed
   }
 }
