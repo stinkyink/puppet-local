@@ -4,6 +4,7 @@
 :yaml:
   :datadir: /etc/puppet/hiera
 :hierarchy:
+  - common/_users # Private, contains our user setup.
   - common/roles
   - common/data
   - node/roles

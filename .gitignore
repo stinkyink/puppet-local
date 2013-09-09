@@ -1,4 +1,5 @@
 .vagrant
+hiera/common/_users.yaml
 hiera/node/*
 !hiera/node/.gitkeep
 
