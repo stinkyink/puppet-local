@@ -1,5 +1,8 @@
 forge "http://forge.puppetlabs.com"
 
+mod "role", :git => "https://github.com/stinkyink/puppet-modules.git", :path => "role"
+mod "ruby", :git => "https://github.com/stinkyink/puppet-modules.git", :path => "ruby"
+
 mod "puppetlabs/stdlib"
 mod "puppetlabs/apt"
 mod "puppetlabs/ntp"

@@ -25,11 +25,29 @@ GIT
     example42/timezone (2.0.8)
       example42/puppi (>= 2.0.0)
 
+GIT
+  remote: https://github.com/stinkyink/puppet-modules.git
+  path: role
+  ref: master
+  sha: 0e4e5c756d10f8ffd046c441781acdced29f6f74
+  specs:
+    role (0.0.1)
+
+GIT
+  remote: https://github.com/stinkyink/puppet-modules.git
+  path: ruby
+  ref: master
+  sha: 0e4e5c756d10f8ffd046c441781acdced29f6f74
+  specs:
+    ruby (0.0.1)
+
 DEPENDENCIES
   example42/redis (>= 0)
   example42/timezone (>= 0)
   puppetlabs/apt (>= 0)
   puppetlabs/ntp (>= 0)
   puppetlabs/stdlib (>= 0)
+  role (>= 0)
+  ruby (>= 0)
   ssh (>= 0)
 
